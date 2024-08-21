@@ -4,7 +4,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-enterprise-application</artifactId>
   <packaging>pom</packaging>
-  <version>1.0</version>
+  <version>4.0</version>
   <name> Maven Enterprise Application</name>
   <url>http://maven.apache.org</url>
   <modules>
@@ -13,10 +13,15 @@
   </modules>
   
   <properties>
-	<!-- versions -->
-	<sonar.host.url>http://localhost:9000/</sonar.host.url>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- versions -->
+        <sonar.host.url>http://50.17.79.221:9000/</sonar.host.url>
+        <sonar.login>5bb2c7f565aad1bf5312daa6dcb961b70b05114a</sonar.login>
+        <!--
+        <sonar.login>admin</sonar.login>
+        <sonar.password>admin</sonar.password>
+        -->
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
   
 </project>
